@@ -2,7 +2,7 @@
 * Para que você consiga emular o nosso projeto é necessario que contenha o interpretador do Python e do Angular. <p>
 ##### 🚨 se atente de ter a biblioteca do Flask e Docx no python,elas que iram possibilitar você de criar o servidor local e gerar tal documentação.
 ~~~
-Servidor_Python: Dentro da respectiva pasta, você irá encontrar um arquivo denominado servidor.py, onde será ele 
+Servidor_Python: Dentro da respectiva pasta, você irá encontrar um arquivo denominado servidor.py, onde será
 o principal responsavel por realizar a criação de um servidor em sua maquina local utilizando a biblioteca flask
 ~~~
   
