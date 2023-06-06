@@ -1,0 +1,30 @@
+<div class="content">
+
+    <div class="instruction-content" *ngIf="instructionIsVisible; else generatorWindows">
+        Instruções gerais para utilizar a nossa ferramenta de documentação:<br><br>
+        <div class="instruction-content__text">
+            1° - Se atente ao código enviado, está ferramenta apenas irá documentar tabelas que estão sendo geradas a
+            partir de
+            outras tabelas.<br><br>
+            2° - Observer se você está utilizando o delimitador correto, para que a ferramenta entenda seu código, é
+            preciso que
+            cada comando para criação de uma tabela se inicie com "create table" e finalize obrigatoriamente com ";".<br><br>
+            3° - Atualmente não conseguimos mapear as subquerys realizadas nos códigos, evite colocar códigos que
+            contenham.
+        </div>
+    </div>
+
+    <ng-template class="instruction-content" #generatorWindows>
+        <div class="container">
+
+            <div class="container__title">SQL DOC GENERATOR</div>
+
+            <textarea class="container__textArea" id="text-area" type="text" placeholder="digite aqui o código SQL..."
+                spellcheck="false"></textarea>
+
+        </div>
+    </ng-template>
+
+    <button class="content__button" (click)="myFunction()">Gerar Documentação</button>
+
+</div>

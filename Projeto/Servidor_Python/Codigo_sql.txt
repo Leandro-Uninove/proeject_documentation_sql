@@ -1,0 +1,40 @@
+CREATE TABLE POTATO AS
+SELECT
+    p.product_name,
+    s.supplier_name,
+    SUM(o.quantity) AS total_quantity
+FROM
+    products p
+    INNER JOIN suppliers s ON p.supplier_id = s.supplier_id
+    INNER JOIN order_items o ON p.product_id = o.product_id
+WHERE
+    p.product_price > 50 AND TESTE <> POT
+GROUP BY
+    p.product_name,
+    s.supplier_name
+HAVING
+    SUM(o.quantity) > 100 AND INT = 3
+ORDER BY
+    total_quantity DESC,
+    p.product_name ASC;
+
+
+
+
+    CREATE TABLE work.PROJETO AS
+SELECT
+    p.product_name,
+    s.supplier_name,
+    SUM(o.quantity) AS total_quantity
+FROM
+    products p
+
+ORDER BY
+    total_quantity DESC,
+    p.product_name ASC;
+
+
+CREATE TABLE GR.TRABALHO AS
+SELECT A.*, A.VCAS
+FROM GT.CLIENTES_LIGANTES 
+WHERE NOME = 'GOOGLE';
