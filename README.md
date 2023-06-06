@@ -21,9 +21,9 @@ Servidor_Angular:
 1. Salve todos os arquivos em sua maquina local e instale as bibliotecas informadas anteriormente.
 * Navegue para "Projeto/Servidor_Python/"
 2. Execute o arquivo servidor.py com o devido interpretador e aguarde o servidor subir em sua rede
-* Apos isso vá para: "Projeto/Servidor_Angular/"
-3.
-*
+* Apos isso nagueve no terminal até "Projeto/Servidor_Angular/"
+3. Execute o comando "ng serve" para startar o seu servido.
+* Com os dois servidos abertos, basta acessar: "http://localhost:4200/"
   
   
   
