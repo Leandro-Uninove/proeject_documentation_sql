@@ -7,7 +7,8 @@ o principal responsavel por realizar a criação de um servidor em sua maquina l
 ~~~
   
 ~~~
-Servidor_Angular:
+Servidor_Angular: Acessando a pasta pelo terminal (recomendado terminal powershell), basta executar o comando "ng server" 
+que será iniciado o seu servidor local.
 ~~~
   
 >**Entenda que este projeto necessita que você realize a criação de 2 servidores, onde o servidor do angular irá fazer a comunicação com o servidor do python utilizando o HTTP Request**<p>
